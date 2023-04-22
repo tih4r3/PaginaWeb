@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ccd204de71.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/registerStyle.css">
+    <link rel="icon" href="../img/logo.png">
+    <title>Registro</title>
+</head>
+<body>
+    
+    <div class="head">
+        <div class="logo">
+          <a href="../ProyectoSemestral/MangaLords.html"><img src="../img/logo.png" alt="logo"></a>
+        </div>
+        <div class="container" style="width: 244px;">
+              <input type="text" placeholder="Buscar manga">
+              <div class="btn">
+                <i class="fa fa-search"></i>
+              </div>             
+	    </div>
+        <nav class="navbar">
+            <a href="../MangaLords.html">Inicio</a>
+            <a href="../views/directorioManga.html">Directorio</a>
+            <a href="#">Contactanos</a>
+          
+            <a href="../views/RegistroUsuario.html">Registrarse</a>
+        </nav>
+
+        <!--Boton-->
+        <div class="boton-modal">
+            <label for="btn-modal">Compra</label>
+        </div>
+    <!--Fin de Boton-->
+    <!--Ventana Modal-->
+    <input type="checkbox" id="btn-modal">
+        <div class="container-modal">
+            <div class="content-modal">
+                <h2>Escoga una opcion</h2>
+                <div class="btn-cerrar">
+                    <label for="btn-modal">
+                        <a href="../views/compra.html">Pagar</a></label>
+                </div>
+            </div>
+            <label for="btn-modal" class="cerrar-modal"></label>
+        </div>
+    <!--Fin de Ventana Modal-->
+        
+    </div>
+     
+    <form action="#" class="form">
+        <h1>Registrate</h1>
+        <div class="container">
+            <div class="container-inputs">
+                <i class="fa-solid fa-user icon"></i>
+                <input type="text" name="name" id="Nombre" placeholder="Ingresa tu nombre" required>
+            </div>
+
+            <div class="container-inputs">
+                <i class="fa-solid fa-phone icon"></i>
+                <input type="tel" name="tel" id="Phone" placeholder="Ingresa tu telefono" required>
+            </div>
+
+            <div class="container-inputs">
+                <i class="fa-solid fa-envelope icon"></i>
+                <input type="email" name="mail" id="email" placeholder="Ingresa tu correo" required>
+            </div>
+
+            <div class="container-inputs">
+                <i class="fa-solid fa-key icon"></i>
+                <input type="password" name="password" id="pass" placeholder="Ingrese su contraseña">
+            </div><br>
+
+            <div class="button">
+                <input type="submit" value="Registrate">
+                <p>Al registrarse acepta todas nuestras <u>Condiciones de uso y politicas de privacidad</u></p>
+                <p>¿Ya tienes una cuenta? <a class="link" href="#">Iniciar Sesión</a></p>
+                <p>Volver a <a class="link" href="#">Inicio</a></p>
+            </div>
+        </div>
+    </form>
+
+    <footer class="pie-pagina">
+        <div class="grupo1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="../img/logoFooter.png" alt="logo MangaLords">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>CONTACTANOS</h2>
+                <P>DIRECCION: V Region, Chile</P>
+                <p>HORA DE ATENCION: Lunes a Viernes de 10:00 AM a 19:00 PM</p>
+                <p>E-MAIL:
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">mangalords023@gmail.com</a>
+                </p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="redSocial">
+                    <div class="r1">
+                        <a href="#">Facebook</a>
+                    </div>
+                    <div class="r2">
+                        <a href="#">Instagram</a>
+                    </div>
+                    <div class="r3">
+                        <a href="#">TikTok</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grupo2">
+            <small>&copy; 2023 <b>Manga Lords</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+    
+</body>
+</html>
